@@ -1,7 +1,7 @@
-name: animated_custom_dropdown
+name: custom_dropdown_pro
 description: Custom dropdown widget allows to add highly customizable dropdown widget in your projects with proper open and close animations. Features includes Search on list data, Network request search, Multi-selection and Form validation.
-version: 3.1.0
-homepage: https://github.com/AbdullahChauhan/custom-dropdown
+version: 3.1.1
+homepage: https://github.com/Koleshy/custom-dropdown-pro
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -19,7 +19,7 @@ dev_dependencies:
 flutter:
 
 funding:
-  - https://buymeacoffee.com/abdullahchauhan
+  - https://buymeacoffee.com/koleshy
 
 screenshots:
   - description: "Custom dropdown Preview"
@@ -37,3 +37,12 @@ topics:
   - spinner
   - widget
   - widgets
+
+# This package supports all platforms listed below.
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:

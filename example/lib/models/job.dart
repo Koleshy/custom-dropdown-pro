@@ -1,4 +1,4 @@
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 
 const List<Job> jobItems = [

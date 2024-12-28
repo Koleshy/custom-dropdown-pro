@@ -1,15 +1,15 @@
-# Custom Dropdown
+# Custom Dropdown Pro
 
-**Custom Dropdown** package lets you add customizable animated dropdown widget.
+**Custom Dropdown Pro** package lets you add customizable animated dropdown widget.
 
-[![pub.dev](https://img.shields.io/pub/v/animated_custom_dropdown.svg?style=flat?logo=dart)](https://pub.dev/packages/animated_custom_dropdown)
-[![likes](https://img.shields.io/pub/likes/animated_custom_dropdown)](https://pub.dev/packages/animated_custom_dropdown/score)
-[![popularity](https://img.shields.io/pub/popularity/animated_custom_dropdown)](https://pub.dev/packages/animated_custom_dropdown/score)
-[![pub points](https://img.shields.io/pub/points/animated_custom_dropdown)](https://pub.dev/packages/animated_custom_dropdown/score)
+[![pub.dev](https://img.shields.io/pub/v/custom_dropdown_pro.svg?style=flat?logo=dart)](https://pub.dev/packages/custom_dropdown_pro)
+[![likes](https://img.shields.io/pub/likes/custom_dropdown_pro)](https://pub.dev/packages/custom_dropdown_pro/score)
+[![popularity](https://img.shields.io/pub/popularity/custom_dropdown_pro)](https://pub.dev/packages/custom_dropdown_pro/score)
+[![pub points](https://img.shields.io/pub/points/custom_dropdown_pro)](https://pub.dev/packages/custom_dropdown_pro/score)
 
-[![buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20pizza&emoji=🍕&slug=abdullahchauhan&button_colour=FF8838&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff')](https://www.buymeacoffee.com/abdullahchauhan)
+[![buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20pizza&emoji=🍕&slug=koleshy&button_colour=FF8838&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff')](https://www.buymeacoffee.com/koleshy)
 
-### If you like this package, please leave a like on [pub.dev](https://pub.dev/packages/animated_custom_dropdown) and star on [GitHub](https://github.com/AbdullahChauhan/custom-dropdown).
+### If you like this package, please leave a like on [pub.dev](https://pub.dev/packages/custom_dropdown_pro) and star on [GitHub](https://github.com/Koleshy/custom-dropdown-pro).
 
 ## Features
 
@@ -24,7 +24,7 @@ Lots of properties to use and customize dropdown widget as per your need. Also u
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/AbdullahChauhan/custom-dropdown/master/readme_assets/preview.gif" width="300"/>
+<img src="https://raw.githubusercontent.com/Koleshy/custom-dropdown-pro/master/readme_assets/preview.gif" width="300"/>
 
 <hr>
 
@@ -34,13 +34,13 @@ Lots of properties to use and customize dropdown widget as per your need. Also u
 
 ```dart
 dependencies:
-  animated_custom_dropdown: 3.1.0
+  custom_dropdown_pro: 3.1.1
 ```
 
 2. Import the package and use it in your Flutter App.
 
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 ```
 
 <hr>
@@ -49,7 +49,7 @@ import 'package:animated_custom_dropdown/custom_dropdown.dart';
 
 ### **1. Custom dropdown**
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
@@ -96,7 +96,7 @@ Whenever you are going to work with custom type model `T`, your model must overr
 Now the widget:
 
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
@@ -124,7 +124,7 @@ class SimpleDropdown extends StatelessWidget {
 ```
 ### **3. Custom dropdown with multiple selection**
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
@@ -176,7 +176,7 @@ Now the widgets:
 
 #### SearchDropdown
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
@@ -206,7 +206,7 @@ class SearchDropdown extends StatelessWidget {
 
 #### MultiSelectSearchDropdown
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
@@ -252,7 +252,7 @@ Now the widgets:
 
 #### SearchRequestDropdown
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
@@ -291,7 +291,7 @@ class SearchRequestDropdown extends StatelessWidget {
 
 #### MultiSelectSearchRequestDropdown
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
@@ -331,7 +331,7 @@ class MultiSelectSearchRequestDropdown extends StatelessWidget {
 
 #### ValidationDropdown
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
@@ -387,7 +387,7 @@ class ValidationDropdown extends StatelessWidget {
 
 #### MultiSelectValidationDropdown
 ```dart
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
@@ -439,12 +439,8 @@ class MultiSelectValidationDropdown extends StatelessWidget {
 ```
 
 ## Customization
-For a complete customization of the package, go to the [example](https://github.com/AbdullahChauhan/custom-dropdown/blob/master/example).
+For a complete customization of the package, go to the [example](https://github.com/Koleshy/custom-dropdown-pro/blob/master/example).
 
 ## Contributors
 
-[![](https://contrib.rocks/image?repo=AbdullahChauhan/custom-dropdown)](https://github.com/AbdullahChauhan/custom-dropdown/graphs/contributors)
-
-## Issues & Feedback
-
-Please file an [issue](https://github.com/AbdullahChauhan/custom-dropdown/issues) to send feedback or report a bug. PRs are always welcome. Thank you!
+[![](https://contrib.rocks/image?repo=Koleshy/custom-dropdown-pro)](https://github.com/Koleshy/custom-dropdown-pro/graphs/contributors)

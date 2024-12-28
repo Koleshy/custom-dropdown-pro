@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:animated_custom_dropdown/custom_dropdown.dart';
-import 'package:animated_custom_dropdown_example/models/job.dart';
+import 'package:custom_dropdown_pro/custom_dropdown.dart';
+import 'package:custom_dropdown_pro_example/models/job.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
